@@ -3,3 +3,5 @@
         * [58-II 左旋字符串](offer/Offer-58-II.md)
         * [58-I 二叉树的深度](offer/Offer-55-I.md)
         * [27 二叉树的镜像](offer/Offer-27.md)
+        * [22 链表中倒数第k个节点](offer/Offer-22.md)
+        * [28 对称的二叉树](offer/Offer-28.md)
