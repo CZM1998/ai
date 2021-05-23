@@ -5,3 +5,4 @@
         * [27 二叉树的镜像](offer/Offer-27.md)
         * [22 链表中倒数第k个节点](offer/Offer-22.md)
         * [28 对称的二叉树](offer/Offer-28.md)
+        * [17 打印从1到最大的n位数](offer/Offer-17.md)
