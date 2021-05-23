@@ -6,3 +6,5 @@
         * [22 链表中倒数第k个节点](offer/Offer-22.md)
         * [28 对称的二叉树](offer/Offer-28.md)
         * [17 打印从1到最大的n位数](offer/Offer-17.md)
+        * [05 替换空格](offer/Offer-05.md)
+        * [06 从尾到头打印链表](offer/Offer-06.md)
