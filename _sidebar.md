@@ -8,3 +8,4 @@
         * [17 打印从1到最大的n位数](offer/Offer-17.md)
         * [05 替换空格](offer/Offer-05.md)
         * [06 从尾到头打印链表](offer/Offer-06.md)
+        * [54 二叉搜索树的第k大节点](offer/Offer-54.md)
