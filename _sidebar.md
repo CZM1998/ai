@@ -9,3 +9,5 @@
         * [05 替换空格](offer/Offer-05.md)
         * [06 从尾到头打印链表](offer/Offer-06.md)
         * [54 二叉搜索树的第k大节点](offer/Offer-54.md)
+        * [24 反转链表](offer/Offer-24.md)
+        * [15 二进制中1的个数](offer/Offer-15.md)
