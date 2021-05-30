@@ -11,7 +11,7 @@
         * [25 合并两个排序的链表](offer/Offer-25.md)
         * [27 二叉树的镜像](offer/Offer-27.md)
         * [28 对称的二叉树](offer/Offer-28.md)
-        * [39 从上到下打印二叉树 II](offer/Offer-32-II.md)
+        * [32 从上到下打印二叉树 II](offer/Offer-32-II.md)
         * [39 数组中出现次数超过一半的数字](offer/Offer-39.md)
         * [52 两个链表的第一个公共节点](offer/Offer-52.md)
         * [54 二叉搜索树的第k大节点](offer/Offer-54.md)
