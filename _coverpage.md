@@ -12,4 +12,4 @@
 
 <!-- 背景图片 -->
 
-![](https://cdn.jsdelivr.net/gh/CZM1998/blog_img@master/img/%E6%B4%9B%E5%A4%A9%E4%BE%9D%E8%B4%BA%E6%96%B0%E6%98%A5.png)
+![](https://cdn.jsdelivr.net/gh/CZM1998/blog_img@master/img/%E6%B4%9B%E5%A4%A9%E4%BE%9D%E5%9D%90%E5%9C%A8%E6%B3%95%E6%9D%96%E4%B8%8A.png)
