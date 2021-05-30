@@ -1,5 +1,6 @@
 * 剑指Offer
     * 简单题
+        * [03 数组中重复的数字](offer/Offer-03.md)
         * [05 替换空格](offer/Offer-05.md)
         * [06 从尾到头打印链表](offer/Offer-06.md)
         * [09 用两个栈实现队列](offer/Offer-09.md)
@@ -10,8 +11,12 @@
         * [25 合并两个排序的链表](offer/Offer-25.md)
         * [27 二叉树的镜像](offer/Offer-27.md)
         * [28 对称的二叉树](offer/Offer-28.md)
+        * [39 从上到下打印二叉树 II](offer/Offer-32-II.md)
+        * [39 数组中出现次数超过一半的数字](offer/Offer-39.md)
+        * [52 两个链表的第一个公共节点](offer/Offer-52.md)
         * [54 二叉搜索树的第k大节点](offer/Offer-54.md)
         * [55-I 二叉树的深度](offer/Offer-55-I.md)
+        * [57 和为s的两个数字](offer/Offer-57.md)
         * [57-II 和为s的连续正数序列](offer/Offer-57-II.md)
         * [58-II 左旋字符串](offer/Offer-58-II.md)
         * [68-I 二叉搜索树的最近公共祖先](offer/Offer-68-I.md)
