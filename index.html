@@ -41,6 +41,34 @@
         },
         sidebarDisplayLevel: 1,
         auto2top: true,
+        plugins: [
+          function (hook, vm) {
+            hook.ready(function () {
+              mermaid.initialize({ startOnLoad: false });
+            });
+            hook.doneEach(function () {
+              mermaid.init(undefined, ".mermaid");
+            });
+          },
+        ],
+        markdown: {
+          renderer: {
+            code: function (code, lang) {
+              var html = "";
+              if (code.match(/^sequenceDiagram/) || code.match(/^graph/) || code.match(/^gantt/)) {
+                html = '<div class="mermaid">' + code + "</div>";
+              }
+              var hl = Prism.highlight(
+                code,
+                Prism.languages[lang] || Prism.languages.markup
+              );
+              return (
+                // html + '<pre v-pre data-lang="' + lang + '"><code class="lang-' + lang + '">' + hl + "</code></pre>"
+                html
+              );
+            },
+          },
+        },
       };
     </script>
     <!-- Docsify v4 -->
@@ -78,5 +106,10 @@
       });
       gitalk.render("gitalk-container"); // 渲染Gitalk评论组件
     </script>
+    <link rel="stylesheet" href="//unpkg.com/mermaid/dist/mermaid.min.css" />
+    <script
+      type="text/javascript"
+      src="//unpkg.com/mermaid/dist/mermaid.min.js"
+    ></script>
   </body>
 </html>

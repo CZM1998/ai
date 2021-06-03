@@ -50,3 +50,8 @@ $f$为传递函数
     * 循环神经网络（Recurrent Network）
     * 强化式架构（Reinforcement Network）
 
+## ANN结构分类
+
+1. 前馈网络
+2. 记忆网络
+3. 图网络
