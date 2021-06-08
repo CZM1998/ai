@@ -35,5 +35,8 @@ start((开始))-->net_activation[计算净活性值]
 net_activation-->activation[通过激活函数计算活性值]
 activation-->have_next{还有一层神经元?}
 have_next--存在-->net_activation
-have_next--不存在-->finish((输出))
+have_next--不存在-->finish[输出]
+finish-->check[判断结果准确性]
+check-->fix[修正之前所有神经元参数]
+fix-->start
 ```

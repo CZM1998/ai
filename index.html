@@ -62,10 +62,11 @@
                 code,
                 Prism.languages[lang] || Prism.languages.markup
               );
-              return (
-                // html + '<pre v-pre data-lang="' + lang + '"><code class="lang-' + lang + '">' + hl + "</code></pre>"
-                html
-              );
+              return html.length == 0 ? '<pre v-pre data-lang="' + lang + '"><code class="lang-' + lang + '">' + hl + "</code></pre>" : html;
+              // return (
+              //   html + '<pre v-pre data-lang="' + lang + '"><code class="lang-' + lang + '">' + hl + "</code></pre>"
+              //   // html
+              // );
             },
           },
         },
@@ -74,6 +75,7 @@
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1.23.0/components/prism-java.min.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-python.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
     <script src="//unpkg.com/docsify-count/dist/countable.js"></script>

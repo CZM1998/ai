@@ -6,4 +6,6 @@
         * [损失函数和风险函数](ANN/ANN_4.md)
     * 前馈神经网络
         * [前馈神经网](ANN/FNN/FNN_1.md)
+        * [反向传播](ANN/FNN/FNN_2.md)
+        * [FNN实践](ANN/FNN/FNN_3.md)
 <!-- * 强化学习 -->
